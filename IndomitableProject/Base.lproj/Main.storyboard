@@ -23,9 +23,6 @@
                         <segue destination="yPp-Mi-TVK" kind="relationship" relationship="viewControllers" id="zzM-oX-afj"/>
                         <segue destination="QsK-ZV-zv7" kind="relationship" relationship="viewControllers" id="0et-Lk-PLG"/>
                         <segue destination="PoD-C1-CbM" kind="relationship" relationship="viewControllers" id="xOD-0Z-fc3"/>
-                        <segue destination="MfI-1o-rXy" kind="popoverPresentation" id="P8I-ox-HU2">
-                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                        </segue>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Slv-8G-Yka" userLabel="First Responder" sceneMemberID="firstResponder"/>
