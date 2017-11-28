@@ -69,6 +69,30 @@
             </objects>
             <point key="canvasLocation" x="365" y="271"/>
         </scene>
+        <!--Settings-->
+        <scene sceneID="8HQ-3r-JRu">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Settings" id="eY8-o7-JMV" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O52-cf-oNt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="298" y="822"/>
+        </scene>
+        <!--Help-->
+        <scene sceneID="Dfm-b4-XXC">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Help" id="5YW-Fa-eAN" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zrf-Hy-6Nl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="299" y="703"/>
+        </scene>
+        <!--SideMenu-->
+        <scene sceneID="XGU-qQ-lew">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SideMenu" id="Uas-Q9-wUe" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Br-pe-vNN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-18" y="755"/>
+        </scene>
         <!--Tips-->
         <scene sceneID="dZj-v3-8O9">
             <objects>
