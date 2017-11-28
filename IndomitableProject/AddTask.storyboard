@@ -13,14 +13,30 @@
         <!--AddTaskView-->
         <scene sceneID="OI5-Oa-POe">
             <objects>
-                <viewController title="AddTaskView" id="bW6-vc-PYe" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Jad-zO-dmi">
+                <viewController title="AddTaskView" id="bW6-vc-PYe" customClass="TaskPickerView" customModule="IndomitableProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jad-zO-dmi" customClass="TaskBundle" customModule="IndomitableProject" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add a New Task" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FAJ-V4-YTM">
+                                <rect key="frame" x="104" y="180" width="166" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cQb-DM-DvW">
+                                <rect key="frame" x="0.0" y="237" width="375" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="D14-QJ-Lvn"/>
                     </view>
                     <navigationItem key="navigationItem" id="PjC-tk-LDc"/>
+                    <connections>
+                        <outlet property="dataPicker" destination="cQb-DM-DvW" id="aza-GS-AyW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZR-dQ-YkL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

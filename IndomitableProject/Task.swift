@@ -8,21 +8,31 @@
 
 import Foundation
 
+enum Tasks: String {
+    case Requirement
+    case Design
+    case Coding
+    case Testing
+    case Review
+}
+
 class Task{
-    var name: String
+    var name: Tasks
+    var events: [Event]
     var notes: String
     var memberCount: Int
     var time: Time
     var points: Int
     var priority: Int
     
-    init(name: String, memberCount: Int, time: Time) {
-        self.name = name
+    init(name: Tasks, memberCount: Int, time: Time) {
+        self.name = .Requirement
         self.notes = ""
         self.memberCount = memberCount
         self.time = time
         self.points = 100 //calculation goes here
         self.priority = 1 // optional
+        self.events = []
     }
     
     
