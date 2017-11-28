@@ -31,6 +31,10 @@
 		220838E51FCD1AEB003CD62A /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220838E41FCD1AEB003CD62A /* Settings.storyboard */; };
 		220838E81FCD1B77003CD62A /* Tips.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220838E61FCD1B77003CD62A /* Tips.storyboard */; };
 		220838EA1FCD1BA5003CD62A /* AddTask.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220838E91FCD1BA5003CD62A /* AddTask.storyboard */; };
+		2208390E1FCDC993003CD62A /* PlanBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2208390D1FCDC993003CD62A /* PlanBubble.swift */; };
+		220839101FCDCD29003CD62A /* PlanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2208390F1FCDCD29003CD62A /* PlanTableViewController.swift */; };
+		220839121FCDCDFC003CD62A /* PlanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220839111FCDCDFC003CD62A /* PlanTableViewCell.swift */; };
+		220839141FCDD2CB003CD62A /* PlanLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220839131FCDD2CB003CD62A /* PlanLine.swift */; };
 		92959A0C1FC6CDB0005B331F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92959A0B1FC6CDB0005B331F /* AppDelegate.swift */; };
 		92959A0E1FC6CDB0005B331F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92959A0D1FC6CDB0005B331F /* ViewController.swift */; };
 		92959A111FC6CDB0005B331F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92959A0F1FC6CDB0005B331F /* Main.storyboard */; };
@@ -63,6 +67,10 @@
 		220838E41FCD1AEB003CD62A /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		220838E71FCD1B77003CD62A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = IndomitableProject/Base.lproj/Tips.storyboard; sourceTree = "<group>"; };
 		220838E91FCD1BA5003CD62A /* AddTask.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddTask.storyboard; sourceTree = "<group>"; };
+		2208390D1FCDC993003CD62A /* PlanBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanBubble.swift; sourceTree = "<group>"; };
+		2208390F1FCDCD29003CD62A /* PlanTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanTableViewController.swift; sourceTree = "<group>"; };
+		220839111FCDCDFC003CD62A /* PlanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanTableViewCell.swift; sourceTree = "<group>"; };
+		220839131FCDD2CB003CD62A /* PlanLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanLine.swift; sourceTree = "<group>"; };
 		92959A081FC6CDAF005B331F /* IndomitableProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndomitableProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92959A0B1FC6CDB0005B331F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92959A0D1FC6CDB0005B331F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +117,17 @@
 			name = UITimeline;
 			sourceTree = "<group>";
 		};
+		2208390C1FCDC946003CD62A /* UIPlan */ = {
+			isa = PBXGroup;
+			children = (
+				2208390D1FCDC993003CD62A /* PlanBubble.swift */,
+				220839131FCDD2CB003CD62A /* PlanLine.swift */,
+				220839111FCDCDFC003CD62A /* PlanTableViewCell.swift */,
+				2208390F1FCDCD29003CD62A /* PlanTableViewController.swift */,
+			);
+			name = UIPlan;
+			sourceTree = "<group>";
+		};
 		929599FF1FC6CDAF005B331F = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +157,7 @@
 				220838DB1FCD1510003CD62A /* Project.storyboard */,
 				220838D81FCD1039003CD62A /* Tasks.storyboard */,
 				220838D61FCD1012003CD62A /* Plan.storyboard */,
+				2208390C1FCDC946003CD62A /* UIPlan */,
 				220838D31FCD0FEE003CD62A /* Timeline.storyboard */,
 				220838E61FCD1B77003CD62A /* Tips.storyboard */,
 				92959A0F1FC6CDB0005B331F /* Main.storyboard */,
@@ -237,11 +257,13 @@
 			files = (
 				220838BA1FCC5B83003CD62A /* Task.swift in Sources */,
 				220838B21FCC0190003CD62A /* TaskLine.swift in Sources */,
+				2208390E1FCDC993003CD62A /* PlanBubble.swift in Sources */,
 				220838C01FCC6021003CD62A /* Schedule.swift in Sources */,
 				220838C81FCC63D7003CD62A /* InitialTabController.swift in Sources */,
 				220838C61FCC6170003CD62A /* Tip.swift in Sources */,
 				220838AE1FCBF951003CD62A /* TaskButton.swift in Sources */,
 				92959A0E1FC6CDB0005B331F /* ViewController.swift in Sources */,
+				220839141FCDD2CB003CD62A /* PlanLine.swift in Sources */,
 				220838C41FCC60DF003CD62A /* Project.swift in Sources */,
 				220838BE1FCC5D54003CD62A /* Plan.swift in Sources */,
 				92959A0C1FC6CDB0005B331F /* AppDelegate.swift in Sources */,
@@ -250,6 +272,8 @@
 				220838BC1FCC5C5A003CD62A /* Time.swift in Sources */,
 				220838B41FCC0861003CD62A /* TimelineController.swift in Sources */,
 				220838B61FCC0983003CD62A /* TimelineTable.swift in Sources */,
+				220839121FCDCDFC003CD62A /* PlanTableViewCell.swift in Sources */,
+				220839101FCDCD29003CD62A /* PlanTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
