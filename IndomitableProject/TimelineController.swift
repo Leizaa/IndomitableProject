@@ -25,11 +25,11 @@ class TimelineController: UIViewController {
         
         //get tasks
         var count = 0
-        for task in project.getTasks(index: 0){
-            taskBundles.append(TaskBundle(frame: self.view.frame, from: CGFloat(50 + count * 50), length: 100.0, task: task, color: #colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1)))
-            scrollView.addSubview(taskBundles[taskBundles.endIndex-1])
-            count += 1
-        }
+//        for task in project.getTasks(index: 0){
+//            taskBundles.append(TaskBundle(frame: self.view.frame, from: CGFloat(50 + count * 50), length: 100.0, task: task, color: #colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1)))
+//            scrollView.addSubview(taskBundles[taskBundles.endIndex-1])
+//            count += 1
+//        }
         
         //display buttons
 //        for index in 0..<taskCount {
@@ -46,7 +46,7 @@ class TimelineController: UIViewController {
         //touch up
 //        taskBundles.append(TaskBundle(frame: self.view.frame, from: CGFloat(50 + count * 50), length: 100.0, task: taskToIndicateEndOfProject(), color: #colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1)))
 //        scrollView.addSubview(taskBundles[taskBundles.endIndex-1])
-        taskBundles[taskBundles.endIndex-1].line?.isHidden = true //line doesnt stretch past timeline
+//        taskBundles[taskBundles.endIndex-1].line?.isHidden = true //line doesnt stretch past timeline
         
         //finish up view
         view.addSubview(scrollView)

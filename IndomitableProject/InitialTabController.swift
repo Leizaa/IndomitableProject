@@ -24,7 +24,7 @@ var project: Project = Project()
 
 func manageProject(){
     //initialize project, tasks.
-    var plan: Plan = Plan(name: "Planning")
+    let plan: Plan = Plan(name: "Planning")
     //var plan2: Plan = Plan(name: "Sprinting")
     plan.addTask(task: Task(name: .Requirement, memberCount: 1, time: Time(duration: 10, unit: .days)))
     plan.addTask(task: Task(name: .Design, memberCount: 1, time: Time(duration: 5, unit: .days)))
