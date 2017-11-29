@@ -14,6 +14,7 @@ enum Tasks: String {
     case Coding
     case Testing
     case Review
+    
 }
 
 class Task{

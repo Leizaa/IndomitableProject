@@ -10,6 +10,9 @@ import UIKit
 
 class TaskPickerView: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     
+    @IBAction func showActDetail(_ sender: UIButton) {
+        performSegue(withIdentifier: "taskDetail", sender: nil)
+    }
     @IBOutlet weak var dataPicker: UIPickerView!
     var taskData: [String] = ["Requirement","Design","Coding","Testing","Review"]
     
@@ -25,6 +28,43 @@ class TaskPickerView: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         return taskData[row]
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "taskDetail"{
+            
+            let destination = segue.destination as! TaskActivitesView
+            let selectedData: String = taskData[dataPicker.selectedRow(inComponent: 0)]
+            
+            destination.sourceTitle = selectedData
+            if selectedData == "Requirement" {
+                destination.dataActivites.append("Requirement Ghatering")
+                destination.dataActivites.append("Requirement Analysis")
+            }else if selectedData == "Design" { 
+                destination.dataActivites.append("System Design")
+                destination.dataActivites.append("Program Design")
+            }
+            else if selectedData == "Coding" {
+                destination.dataActivites.append("Main")
+                destination.dataActivites.append("Feature")
+            }
+            else if selectedData == "Testing" {
+                destination.dataActivites.append("Unit Testing")
+                destination.dataActivites.append("Integration Testing")
+                destination.dataActivites.append("System Testing")
+            }
+            else if selectedData == "Review" {
+                destination.dataActivites.append("Requirement fulfilled")
+                destination.dataActivites.append("Performance")
+                destination.dataActivites.append("Increment")
+            }else{
+                destination.dataActivites.append("yooman")
+                destination.dataActivites.append("yooman")
+
+            }
+            
+           // destination.countryText = countryData[dataPicker.selectedRow(inComponent: 0)]
+           // destination.animalText = animalData[dataPicker.selectedRow(inComponent: 1)]
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

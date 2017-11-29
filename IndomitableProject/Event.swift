@@ -17,11 +17,13 @@ enum Types{
 }
 
 class Event{
-    var time: Time
+    var timeBoxed: Time
     var type: Types
+    var memberCount: Int
     
-    init(time: Time, type: Types) {
-        self.time = time
+    init(timeBoxed: Time, type: Types, memberCount: Int) {
+        self.timeBoxed = timeBoxed
         self.type = type
+        self.memberCount = memberCount
     }
 }
