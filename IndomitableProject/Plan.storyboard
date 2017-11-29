@@ -32,18 +32,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="planCell" rowHeight="239" id="mJF-9i-8us" customClass="PlanTableViewCell" customModule="IndomitableProject" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="239"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="planCell" rowHeight="240" id="mJF-9i-8us" customClass="PlanTableViewCell" customModule="IndomitableProject" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="240"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mJF-9i-8us" id="4sn-vU-Qhy">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="238.5"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mJF-9i-8us" id="4sn-vU-Qhy">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="239.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="acp-WC-thA" customClass="PlanLine" customModule="IndomitableProject" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="acp-WC-thA" customClass="PlanLine" customModule="IndomitableProject" customModuleProvider="target">
                                                     <rect key="frame" x="140" y="111" width="94" height="128"/>
                                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </view>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nfA-hD-wQy" customClass="PlanBubble" customModule="IndomitableProject" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nfA-hD-wQy" customClass="PlanBubble" customModule="IndomitableProject" customModuleProvider="target">
                                                     <rect key="frame" x="97" y="12" width="180" height="100"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Planning" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Rq-sL-Iui">
@@ -66,6 +66,13 @@
                                                     <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nmi-Fu-c9m">
+                                                    <rect key="frame" x="308" y="11" width="42" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="acp-WC-thA" secondAttribute="bottom" constant="-0.5" id="09O-RU-F0p"/>
@@ -86,13 +93,14 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <sections/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="U6q-24-8zU"/>
                     <connections>
-                        <outlet property="planTableView" destination="KHC-Lx-AfE" id="EWn-La-FM3"/>
+                        <outlet property="planTableView" destination="KHC-Lx-AfE" id="2ok-Xh-Vga"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8MV-iT-mCd" userLabel="First Responder" sceneMemberID="firstResponder"/>
