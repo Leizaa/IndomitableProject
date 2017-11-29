@@ -35,6 +35,7 @@
 		220839101FCDCD29003CD62A /* PlanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2208390F1FCDCD29003CD62A /* PlanTableViewController.swift */; };
 		220839121FCDCDFC003CD62A /* PlanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220839111FCDCDFC003CD62A /* PlanTableViewCell.swift */; };
 		220839141FCDD2CB003CD62A /* PlanLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220839131FCDD2CB003CD62A /* PlanLine.swift */; };
+		22FB98791FCE9538000DD7F2 /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB98781FCE9538000DD7F2 /* TestTableViewController.swift */; };
 		92959A0C1FC6CDB0005B331F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92959A0B1FC6CDB0005B331F /* AppDelegate.swift */; };
 		92959A0E1FC6CDB0005B331F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92959A0D1FC6CDB0005B331F /* ViewController.swift */; };
 		92959A111FC6CDB0005B331F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92959A0F1FC6CDB0005B331F /* Main.storyboard */; };
@@ -71,6 +72,7 @@
 		2208390F1FCDCD29003CD62A /* PlanTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanTableViewController.swift; sourceTree = "<group>"; };
 		220839111FCDCDFC003CD62A /* PlanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanTableViewCell.swift; sourceTree = "<group>"; };
 		220839131FCDD2CB003CD62A /* PlanLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanLine.swift; sourceTree = "<group>"; };
+		22FB98781FCE9538000DD7F2 /* TestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
 		92959A081FC6CDAF005B331F /* IndomitableProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndomitableProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92959A0B1FC6CDB0005B331F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92959A0D1FC6CDB0005B331F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				220839131FCDD2CB003CD62A /* PlanLine.swift */,
 				220839111FCDCDFC003CD62A /* PlanTableViewCell.swift */,
 				2208390F1FCDCD29003CD62A /* PlanTableViewController.swift */,
+				22FB98781FCE9538000DD7F2 /* TestTableViewController.swift */,
 			);
 			name = UIPlan;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				220839141FCDD2CB003CD62A /* PlanLine.swift in Sources */,
 				220838C41FCC60DF003CD62A /* Project.swift in Sources */,
 				220838BE1FCC5D54003CD62A /* Plan.swift in Sources */,
+				22FB98791FCE9538000DD7F2 /* TestTableViewController.swift in Sources */,
 				92959A0C1FC6CDB0005B331F /* AppDelegate.swift in Sources */,
 				220838B81FCC2629003CD62A /* TaskBundle.swift in Sources */,
 				220838C21FCC608E003CD62A /* User.swift in Sources */,
