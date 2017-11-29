@@ -8,9 +8,7 @@
 
 import UIKit
 
-class InitialTabController: UITabBarController {
-    
-    
+class InitialTabController: UITabBarController{
     override func viewDidLoad() {
         super.viewDidLoad()
         //print("first")

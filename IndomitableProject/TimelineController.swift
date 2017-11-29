@@ -9,6 +9,8 @@
 import UIKit
 
 class TimelineController: UIViewController {
+    @IBOutlet weak var sideMenu: UIBarButtonItem!
+    
     var taskCount: Int = 0
 //    var taskButtons: [TaskButton] = []
 //    var taskLines: [TaskLine] = []
@@ -50,6 +52,9 @@ class TimelineController: UIViewController {
         
         //finish up view
         view.addSubview(scrollView)
+        
+        //sidemenu
+        self.sideMenuView(sideMenu: sideMenu)
     }
     
     override func didReceiveMemoryWarning() {

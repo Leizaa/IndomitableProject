@@ -25,7 +25,6 @@
 		220838D71FCD1012003CD62A /* Plan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220838D61FCD1012003CD62A /* Plan.storyboard */; };
 		220838DA1FCD1039003CD62A /* Tasks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220838D81FCD1039003CD62A /* Tasks.storyboard */; };
 		220838DC1FCD1510003CD62A /* Project.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220838DB1FCD1510003CD62A /* Project.storyboard */; };
-		220838DF1FCD162C003CD62A /* SideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220838DD1FCD162C003CD62A /* SideMenu.storyboard */; };
 		220838E11FCD1AA9003CD62A /* DetailTask.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220838E01FCD1AA9003CD62A /* DetailTask.storyboard */; };
 		220838E31FCD1ACB003CD62A /* Help.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220838E21FCD1ACB003CD62A /* Help.storyboard */; };
 		220838E51FCD1AEB003CD62A /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220838E41FCD1AEB003CD62A /* Settings.storyboard */; };
@@ -36,6 +35,10 @@
 		92959A111FC6CDB0005B331F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92959A0F1FC6CDB0005B331F /* Main.storyboard */; };
 		92959A131FC6CDB0005B331F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92959A121FC6CDB0005B331F /* Assets.xcassets */; };
 		92959A161FC6CDB0005B331F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92959A141FC6CDB0005B331F /* LaunchScreen.storyboard */; };
+		CE3E3A021FCE6CAA006F31E6 /* side.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3E3A011FCE6CAA006F31E6 /* side.storyboard */; };
+		CEAC67E61FCE92CF00AB0212 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC67E51FCE92CF00AB0212 /* SWRevealViewController.m */; };
+		CEAC67F01FCEA99600AB0212 /* sideMenuFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC67EF1FCEA99600AB0212 /* sideMenuFunc.swift */; };
+		CEAC67F41FCEB07700AB0212 /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC67F31FCEB07700AB0212 /* SideMenuTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,7 +60,6 @@
 		220838D61FCD1012003CD62A /* Plan.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Plan.storyboard; sourceTree = "<group>"; };
 		220838D91FCD1039003CD62A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = IndomitableProject/Base.lproj/Tasks.storyboard; sourceTree = "<group>"; };
 		220838DB1FCD1510003CD62A /* Project.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Project.storyboard; sourceTree = "<group>"; };
-		220838DE1FCD162C003CD62A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = IndomitableProject/Base.lproj/SideMenu.storyboard; sourceTree = "<group>"; };
 		220838E01FCD1AA9003CD62A /* DetailTask.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailTask.storyboard; sourceTree = "<group>"; };
 		220838E21FCD1ACB003CD62A /* Help.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Help.storyboard; sourceTree = "<group>"; };
 		220838E41FCD1AEB003CD62A /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
@@ -70,6 +72,12 @@
 		92959A121FC6CDB0005B331F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92959A151FC6CDB0005B331F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92959A171FC6CDB0005B331F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3E3A011FCE6CAA006F31E6 /* side.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = side.storyboard; path = ../../../../Desktop/side.storyboard; sourceTree = "<group>"; };
+		CEAC67E31FCE92CF00AB0212 /* IndomitableProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IndomitableProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		CEAC67E41FCE92CF00AB0212 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../../../../../Downloads/SWRevealViewControllers/SWRevealViewController.h; sourceTree = "<group>"; };
+		CEAC67E51FCE92CF00AB0212 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../../../../../Downloads/SWRevealViewControllers/SWRevealViewController.m; sourceTree = "<group>"; };
+		CEAC67EF1FCEA99600AB0212 /* sideMenuFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sideMenuFunc.swift; sourceTree = "<group>"; };
+		CEAC67F31FCEB07700AB0212 /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,12 +136,12 @@
 		92959A0A1FC6CDB0005B331F /* IndomitableProject */ = {
 			isa = PBXGroup;
 			children = (
+				CE3E3A011FCE6CAA006F31E6 /* side.storyboard */,
 				92959A0B1FC6CDB0005B331F /* AppDelegate.swift */,
 				92959A0D1FC6CDB0005B331F /* ViewController.swift */,
 				220838E21FCD1ACB003CD62A /* Help.storyboard */,
 				220838E91FCD1BA5003CD62A /* AddTask.storyboard */,
 				220838E41FCD1AEB003CD62A /* Settings.storyboard */,
-				220838DD1FCD162C003CD62A /* SideMenu.storyboard */,
 				220838E01FCD1AA9003CD62A /* DetailTask.storyboard */,
 				220838DB1FCD1510003CD62A /* Project.storyboard */,
 				220838D81FCD1039003CD62A /* Tasks.storyboard */,
@@ -148,8 +156,21 @@
 				220838D11FCD0434003CD62A /* ProjectData */,
 				220838D21FCD0454003CD62A /* UITimeline */,
 				220838C71FCC63D7003CD62A /* InitialTabController.swift */,
+				CE6EBD521FCD3E680029E1AF /* UISideMenu */,
 			);
 			path = IndomitableProject;
+			sourceTree = "<group>";
+		};
+		CE6EBD521FCD3E680029E1AF /* UISideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CEAC67E41FCE92CF00AB0212 /* SWRevealViewController.h */,
+				CEAC67E51FCE92CF00AB0212 /* SWRevealViewController.m */,
+				CEAC67E31FCE92CF00AB0212 /* IndomitableProject-Bridging-Header.h */,
+				CEAC67EF1FCEA99600AB0212 /* sideMenuFunc.swift */,
+				CEAC67F31FCEB07700AB0212 /* SideMenuTableViewController.swift */,
+			);
+			path = UISideMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +205,7 @@
 				TargetAttributes = {
 					92959A071FC6CDAF005B331F = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -216,7 +238,7 @@
 				92959A161FC6CDB0005B331F /* LaunchScreen.storyboard in Resources */,
 				220838E51FCD1AEB003CD62A /* Settings.storyboard in Resources */,
 				220838E31FCD1ACB003CD62A /* Help.storyboard in Resources */,
-				220838DF1FCD162C003CD62A /* SideMenu.storyboard in Resources */,
+				CE3E3A021FCE6CAA006F31E6 /* side.storyboard in Resources */,
 				220838D51FCD0FEE003CD62A /* Timeline.storyboard in Resources */,
 				220838EA1FCD1BA5003CD62A /* AddTask.storyboard in Resources */,
 				220838E81FCD1B77003CD62A /* Tips.storyboard in Resources */,
@@ -236,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				220838BA1FCC5B83003CD62A /* Task.swift in Sources */,
+				CEAC67F01FCEA99600AB0212 /* sideMenuFunc.swift in Sources */,
 				220838B21FCC0190003CD62A /* TaskLine.swift in Sources */,
 				220838C01FCC6021003CD62A /* Schedule.swift in Sources */,
 				220838C81FCC63D7003CD62A /* InitialTabController.swift in Sources */,
@@ -245,7 +268,9 @@
 				220838C41FCC60DF003CD62A /* Project.swift in Sources */,
 				220838BE1FCC5D54003CD62A /* Plan.swift in Sources */,
 				92959A0C1FC6CDB0005B331F /* AppDelegate.swift in Sources */,
+				CEAC67E61FCE92CF00AB0212 /* SWRevealViewController.m in Sources */,
 				220838B81FCC2629003CD62A /* TaskBundle.swift in Sources */,
+				CEAC67F41FCEB07700AB0212 /* SideMenuTableViewController.swift in Sources */,
 				220838C21FCC608E003CD62A /* User.swift in Sources */,
 				220838BC1FCC5C5A003CD62A /* Time.swift in Sources */,
 				220838B41FCC0861003CD62A /* TimelineController.swift in Sources */,
@@ -270,14 +295,6 @@
 				220838D91FCD1039003CD62A /* Base */,
 			);
 			name = Tasks.storyboard;
-			sourceTree = "<group>";
-		};
-		220838DD1FCD162C003CD62A /* SideMenu.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				220838DE1FCD162C003CD62A /* Base */,
-			);
-			name = SideMenu.storyboard;
 			sourceTree = "<group>";
 		};
 		220838E61FCD1B77003CD62A /* Tips.storyboard */ = {
@@ -406,10 +423,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = IndomitableProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.RagingWind.IndomitableProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IndomitableProject/UISideMenu/IndomitableProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -418,10 +438,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = IndomitableProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.RagingWind.IndomitableProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IndomitableProject/UISideMenu/IndomitableProject-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

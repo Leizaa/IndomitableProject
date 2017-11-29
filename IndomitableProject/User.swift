@@ -11,7 +11,7 @@ import Foundation
 class User {
     var name: String
     var accounts: [String]
-    
+    //ada point jangan lupa
     init() {
         name = "Planner"
         accounts = ["mettasaridewi.w@gmail.com"]
